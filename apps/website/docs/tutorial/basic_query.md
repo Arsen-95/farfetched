@@ -39,7 +39,7 @@ const myFirstQuery = createQuery({
 });
 ```
 
-So `handler` have to be asynchronous function that accepts some parameters and returns some data. Since Farfetched is created for handling remote data, the most common use case of handler is function that calls some API and returns data from it.
+So `handler` has to be asynchronous function that accepts some parameters and returns some data. Since Farfetched is created for handling remote data, the most common use case of handler is function that calls some API and returns data from it.
 
 :::tip
 In this tutorial, we will use [The Rick and Morty API](https://rickandmortyapi.com) for examples. You can use any API you want, but we recommend you to use this one because it is simple and has plenty of endpoints.
